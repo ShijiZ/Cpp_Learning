@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B1FC4C323C943E100CC75C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FC4C223C943E100CC75C0 /* main.cpp */; };
+		2B1FC4D723C9542700CC75C0 /* C++_Do_While_Loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FC4D623C9542700CC75C0 /* C++_Do_While_Loop.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,12 @@
 
 /* Begin PBXFileReference section */
 		2B1FC4BF23C943E100CC75C0 /* C++_Leaning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++_Leaning"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B1FC4C223C943E100CC75C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B1FC4CA23C9484800CC75C0 /* C++_If_Statement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++_If_Statement.cpp"; sourceTree = "<group>"; };
+		2B1FC4CC23C94A4E00CC75C0 /* C++_If_Else_Statement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++_If_Else_Statement.cpp"; sourceTree = "<group>"; };
+		2B1FC4CE23C94CFE00CC75C0 /* C++_Nested_If_Else.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++_Nested_If_Else.cpp"; sourceTree = "<group>"; };
+		2B1FC4D123C94F5700CC75C0 /* C++_For_Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++_For_Loop.cpp"; sourceTree = "<group>"; };
+		2B1FC4D423C9536000CC75C0 /* C++_While_Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++_While_Loop.cpp"; sourceTree = "<group>"; };
+		2B1FC4D623C9542700CC75C0 /* C++_Do_While_Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++_Do_While_Loop.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +62,38 @@
 		2B1FC4C123C943E100CC75C0 /* C++_Leaning */ = {
 			isa = PBXGroup;
 			children = (
-				2B1FC4C223C943E100CC75C0 /* main.cpp */,
+				2B1FC4D323C9530B00CC75C0 /* 3C++_While_and_Do_While_Loop */,
+				2B1FC4D023C94F3A00CC75C0 /* 2C++_For_Loop */,
+				2B1FC4C923C947FE00CC75C0 /* 1C++_If_Else */,
 			);
 			path = "C++_Leaning";
+			sourceTree = "<group>";
+		};
+		2B1FC4C923C947FE00CC75C0 /* 1C++_If_Else */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FC4CA23C9484800CC75C0 /* C++_If_Statement.cpp */,
+				2B1FC4CC23C94A4E00CC75C0 /* C++_If_Else_Statement.cpp */,
+				2B1FC4CE23C94CFE00CC75C0 /* C++_Nested_If_Else.cpp */,
+			);
+			path = "1C++_If_Else";
+			sourceTree = "<group>";
+		};
+		2B1FC4D023C94F3A00CC75C0 /* 2C++_For_Loop */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FC4D123C94F5700CC75C0 /* C++_For_Loop.cpp */,
+			);
+			path = "2C++_For_Loop";
+			sourceTree = "<group>";
+		};
+		2B1FC4D323C9530B00CC75C0 /* 3C++_While_and_Do_While_Loop */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FC4D423C9536000CC75C0 /* C++_While_Loop.cpp */,
+				2B1FC4D623C9542700CC75C0 /* C++_Do_While_Loop.cpp */,
+			);
+			path = "3C++_While_and_Do_While_Loop";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1FC4C323C943E100CC75C0 /* main.cpp in Sources */,
+				2B1FC4D723C9542700CC75C0 /* C++_Do_While_Loop.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
