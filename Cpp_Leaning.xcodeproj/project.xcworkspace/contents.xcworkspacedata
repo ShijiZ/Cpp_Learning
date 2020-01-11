@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:C++_Leaning.xcodeproj">
+      location = "self:/Users/shijizhao/Documents/Programming_Learning/C++_Leaning/Cpp_Leaning.xcodeproj">
    </FileRef>
 </Workspace>
