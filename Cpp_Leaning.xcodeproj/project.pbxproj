@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B1FC4D823C9587A00CC75C0 /* C++_While_Loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FC4D423C9536000CC75C0 /* C++_While_Loop.cpp */; };
+		2B1FC4DD23C95C9300CC75C0 /* C++_Continue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FC4DC23C95C9300CC75C0 /* C++_Continue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +30,8 @@
 		2B1FC4D123C94F5700CC75C0 /* C++_For_Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++_For_Loop.cpp"; sourceTree = "<group>"; };
 		2B1FC4D423C9536000CC75C0 /* C++_While_Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++_While_Loop.cpp"; sourceTree = "<group>"; };
 		2B1FC4D623C9542700CC75C0 /* C++_Do_While_Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++_Do_While_Loop.cpp"; sourceTree = "<group>"; };
+		2B1FC4DA23C95AB400CC75C0 /* C++_Break.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++_Break.cpp"; sourceTree = "<group>"; };
+		2B1FC4DC23C95C9300CC75C0 /* C++_Continue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C++_Continue.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		2B1FC4B623C943E100CC75C0 = {
 			isa = PBXGroup;
 			children = (
+				2B1FC4D923C95A8900CC75C0 /* 4C++_Break_and_Continue */,
 				2B1FC4D323C9530B00CC75C0 /* 3C++_While_and_Do_While_Loop */,
 				2B1FC4D023C94F3A00CC75C0 /* 2C++_For_Loop */,
 				2B1FC4C923C947FE00CC75C0 /* 1C++_If_Else */,
@@ -86,6 +89,15 @@
 				2B1FC4D623C9542700CC75C0 /* C++_Do_While_Loop.cpp */,
 			);
 			path = "3C++_While_and_Do_While_Loop";
+			sourceTree = "<group>";
+		};
+		2B1FC4D923C95A8900CC75C0 /* 4C++_Break_and_Continue */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FC4DA23C95AB400CC75C0 /* C++_Break.cpp */,
+				2B1FC4DC23C95C9300CC75C0 /* C++_Continue.cpp */,
+			);
+			path = "4C++_Break_and_Continue";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1FC4D823C9587A00CC75C0 /* C++_While_Loop.cpp in Sources */,
+				2B1FC4DD23C95C9300CC75C0 /* C++_Continue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
